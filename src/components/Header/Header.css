@@ -5,12 +5,21 @@
 header {
   background-color: black;
   line-height: 60px;
-  background-image: url("../Header/photo-1573152958734-1922c188fba3.jpg");
+  background-image: url("../Header/concert_cover.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 .header-container {
   text-align: center;
-  color: rgb(218, 218, 218);
-  padding: 30px;
+  padding: 50px;
+}
+.header-container h1 {
+  background-color: rgba(99, 95, 95, 0.486);
+  padding: 10px;
+  color: rgb(240, 122, 12);
+  margin: 0 300px;
+  border-radius: 50px;
+}
+.header-container h2 {
+  color: rgba(255, 228, 196, 0.644);
 }

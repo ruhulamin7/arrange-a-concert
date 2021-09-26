@@ -2,7 +2,6 @@ import React from 'react';
 import './Singer.css'
 
 const Singer = (props) => {
-    console.log(props)
     const { id, name, about, song, born, rate, img } = props.singer
     return (
         <div >
@@ -21,7 +20,7 @@ const Singer = (props) => {
                         <li className="list-group-item"><strong>Hire Rate:</strong> {rate}</li>
                     </ul>
                     <div className="card-body card-btn-area">
-                        <button className="hire-btn">Hire me</button>
+                        <button className="hire-btn" onClick={() => props.handleSelectSinger(props.singer)}><i className="fas fa-music"></i> Hire me</button>
                     </div>
                 </div>
             </div>
