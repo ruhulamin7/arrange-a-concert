@@ -17,12 +17,31 @@ const SelectedSingers = (props) => {
             <h5>Selected Singers: {selectedQuantity}</h5>
             <h5>Total Amount: {selectedTotalRate} BDT</h5>
             <hr />
-            <div className="selected-singer">
-                <ul>
-                    <li><img src={selecteds.map(selected => selected.img)} alt="" />
-                        <h4>{selecteds.map(selected => selected.name)}</h4></li>
-                </ul>
+
+
+            <div >
+                {selecteds.map(selected =>
+
+
+                    <div className="selected-singer">
+
+                        <img src={selected.img} alt="" />
+                        <h5>{selected.name}</h5>
+                    </div>
+
+                )
+                }
+
             </div>
+
+
+            {/* <div>
+                    {
+                        selecteds.map(selected => <img src={selected.img} alt="">
+                        </img>)
+                    }
+                    {selecteds.map(selected => <li>{selected.name}</li>)}
+                </div> */}
 
         </div>
     );
