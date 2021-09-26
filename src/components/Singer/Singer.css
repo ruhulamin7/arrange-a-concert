@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(47, 54, 61);
+}
+.card {
+  min-height: 550px;
+  transition: 0.5s;
+  background-color: rgb(255, 137, 2);
+  border-radius: 0px;
+  padding: 1px;
+}
+.card-img-container {
+  background-color: rgb(97, 96, 96);
+  text-align: center;
+}
+.card-img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin: 10px;
+  border: 5px solid white;
+}
+.about {
+  background-image: linear-gradient(lightgray, white);
+  height: 130px;
+}
+.card-text {
+  height: 70px;
+  overflow-x: hidden;
+}
+.card-btn-area {
+  background-image: linear-gradient(white, gray);
+}
+.hire-btn {
+  outline: 0;
+  background-color: rgb(255, 137, 2);
+  padding: 5px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.hire-btn:hover {
+  color: white;
+}

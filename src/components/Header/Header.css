@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: black;
+  line-height: 60px;
+  background-image: url("../Header/photo-1573152958734-1922c188fba3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header-container {
+  text-align: center;
+  color: rgb(218, 218, 218);
+  padding: 30px;
+}

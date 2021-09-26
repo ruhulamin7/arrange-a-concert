@@ -1,12 +1,13 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Singer from './components/Singer/Singer';
+import AllSingers from './components/AllSingers/AllSingers';
+import Header from './components/Header/Header';
 
 function App() {
   return (
     <div>
-      <Singer></Singer>
-
+      <Header></Header>
+      <AllSingers></AllSingers>
     </div>
   );
 }
