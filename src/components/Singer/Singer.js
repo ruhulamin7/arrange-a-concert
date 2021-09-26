@@ -2,7 +2,7 @@ import React from 'react';
 import './Singer.css'
 
 const Singer = (props) => {
-    const { id, name, about, song, born, rate, img } = props.singer
+    const { name, about, song, born, rate, img } = props.singer
     return (
         <div >
             <div className="singer">

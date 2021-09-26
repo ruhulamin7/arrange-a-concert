@@ -13,6 +13,7 @@ const AllSingers = () => {
             .then(data => setSingers(data))
     }, []);
 
+    // add button handler
     const handleSelectSinger = (singer) => {
         const newSelecteds = [...selecteds, singer];
         setSelecteds(newSelecteds);

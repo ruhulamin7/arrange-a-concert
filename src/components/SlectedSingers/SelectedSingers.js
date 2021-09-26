@@ -22,9 +22,7 @@ const SelectedSingers = (props) => {
             <div >
                 {selecteds.map(selected =>
 
-
                     <div className="selected-singer">
-
                         <img src={selected.img} alt="" />
                         <h5>{selected.name}</h5>
                     </div>
