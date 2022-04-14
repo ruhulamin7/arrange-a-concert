@@ -4,7 +4,7 @@ This project live at netlify in [This Link](https://arrange-a-concert-ruhul.netl
 
 ## Used Languages
 
-- HTMML
+- HTML
 - CSS
 - Bootstrap
 - JavaScript
